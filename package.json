@@ -1,32 +1,29 @@
 {
-  "name": "substrate-auto-payout",
+  "name": "dock-auto-payout",
   "version": "1.0.0",
-  "description": "Auto payout script for Substrate based blockchains Polkadot, Kusama and Westend",
+  "description": "Auto payout script for Dock.io validators",
   "main": "autopayout.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/Colm3na/substrate-auto-payout"
+    "url": "git://github.com/metaspan/dock-auto-payout"
   },
   "keywords": [
     "blockchain",
     "substrate",
     "polkadot",
-    "kusama",
-    "westend",
-    "validator",
+    "dock",
     "POS"
   ],
-  "author": "mariopino",
+  "author": "derek@metaspan.com",
   "license": "GPL-3.0-only",
   "dependencies": {
-    "@polkadot/api": "^v8.5.1",
-    "@polkadot/keyring": "^9.2.1",
-    "@polkadot/ui-keyring": "^2.2.1",
-    "bignumber.js": "^9.0.2",
+    "@docknetwork/sdk": "^2.10.0",
+    "@polkadot/keyring": "^10.4.2",
+    "@polkadot/ui-keyring": "^2.11.2",
     "prompts": "^2.4.2",
-    "yargs": "^17.5.1"
+    "yargs": "^17.7.0"
   }
 }
